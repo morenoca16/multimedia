@@ -1,0 +1,93 @@
+<br>
+<br>
+<br>
+
+<ion-content class="componente" [fullscreen]="true">
+  <h1 style="color:#EA9010" class="texto"> MUSICA</h1>
+
+    <ion-card class="card">
+      <ion-card-header>
+        <ion-list lines="none">
+          <ion-item >
+            <ion-card-content >
+            <h1>Sorry.mp3</h1>
+            
+            <ion-icon class="icon" size="large" name="volume-high"  (click)="playMusic()">  </ion-icon>  
+              <audio >
+                <source src="../../assets/Sorryv.mp3" type="audio/mpeg">
+              </audio>
+              <video *ngIf="videoPlaying" width="320" height="240" controls>
+                <source src="../../assets/Sorryv.mp4" type="video/mp4">
+              </video>
+            </ion-card-content>
+          </ion-item>
+          <ion-item >
+            <ion-card-content>
+            <h1>All Of Me.mp3</h1>
+            <ion-icon class="icon1" size="large" name="volume-high" (click)="playMusic1()" slot="end">  </ion-icon>  
+              <audio >
+                <source src="../../assets/AllofMe.mp3" type="audio/mpeg">
+              </audio>
+              <video *ngIf="videoPlaying1" width="320" height="240" controls>
+                <source src="../../assets/AllofMe.mp4" type="video/mp4">
+              </video>
+            </ion-card-content>
+          </ion-item>
+          <ion-item >
+            <ion-card-content>
+             <h1>Animals.mp3</h1>
+            <ion-icon class="icon2" size="large" name="volume-high" (click)="playMusic2()" slot="end">  </ion-icon>  
+              <audio >
+                <source src="../../assets/Animals.mp3" type="audio/mpeg">
+              </audio>
+              <video *ngIf="videoPlaying2" width="320" height="240" controls>
+                <source src="../../assets/Animals.mp4" type="video/mp4">
+              </video>
+            </ion-card-content>
+          </ion-item>
+          <ion-item >
+            <ion-card-content>
+            <h1> Bésame.mp3</h1>
+            <ion-icon class="icon3"size="large" name="volume-high" (click)="playMusic3()" slot="end">  </ion-icon>  
+              <audio >
+                <source src="../../assets/Besame.mp3" type="audio/mpeg">
+              </audio>
+              <video *ngIf="videoPlaying3" width="320" height="240" controls>
+                <source src="../../assets/Besame.mp4" type="video/mp4">
+              </video>
+            </ion-card-content>
+          </ion-item>
+          <ion-item >
+            <ion-card-content>
+            <h1>Chandelier.mp3</h1>
+            <ion-icon class="icon4" size="large" name="volume-high" (click)="playMusic4()" slot="end">  </ion-icon>  
+              <audio >
+                <source src="../../assets/Chandelier.mp3" type="audio/mpeg">
+              </audio>
+              <video *ngIf="videoPlaying4" width="320" height="240" controls>
+                <source src="../../assets/Chandelier.mp4" type="video/mp4">
+              </video>
+            </ion-card-content>
+          </ion-item>
+        </ion-list>
+      </ion-card-header>
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+ 
+    </ion-card>
+
+  </ion-content>
+
+  <ion-footer style="background-color: #EA9010;">
+    <img  style="width: 400px;" src="assets/Captura2.PNG"> 
+  </ion-footer>
+
+  

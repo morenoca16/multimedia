@@ -1,0 +1,52 @@
+#container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  .icon-large {
+    font-size: 2em; /* O cualquier otro valor que desees */
+  }
+  
+  .card{
+    border: 2px ; /* Cambia el color según lo desees */
+    border-radius: 15px;  
+    box-shadow:10px 5px 10px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Color */
+    border: 2px solid #ccc; /* Borde normal opcional */
+  }
+  .button{
+    color: #EA9010
+  }
+  .login{
+    background-color: #EA9010;
+    color: white
+    
+  }
+  .but{
+    background-color: #EA9010;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    margin-left: 30px
+  }

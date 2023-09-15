@@ -1,0 +1,41 @@
+
+
+<ion-content class="fondo" [fullscreen]="true">
+  <img  style="width: 400px;" src="assets/Captura.PNG">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="11"> <!-- Tamaño 6 (de 12) significa que toma la mitad del espacio disponible -->
+        <br>
+        <br>
+        <ion-card style="float: right; width: 250px" class="card">
+          <ion-header >
+            <ion-toolbar class="login" color= #EA9010;>
+              <ion-title style="text-align: center;"> LOGIN </ion-title>
+            </ion-toolbar>
+          </ion-header>
+  
+    <div id="formulario">
+      <form (ngSubmit)="login()">
+        <ion-item>
+          <ion-label position="floating">Username</ion-label>
+          <ion-input type="text" [(ngModel)]="username" name="username" required></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-label position="floating">Password</ion-label>
+          <ion-input type="password" [(ngModel)]="password" name="password" required></ion-input>
+        </ion-item>
+  
+        <ion-button style="float:center; width: 180px; border-radius: 8px; " class="but" color= #EA9010; type="submit"  > INGRESAR</ion-button>
+      </form>
+    </div>
+    <br>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+<img style="width:400px;" src="assets/Captura1.PNG">
+</ion-content>
+

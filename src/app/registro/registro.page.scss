@@ -1,0 +1,23 @@
+.texto{
+    text-align: center;  /* Centra el texto horizontalmente */
+    font-weight: bold;   /* Hace el texto en negrita */
+
+    padding-bottom: 5px;
+    position: relative;
+
+}
+.texto::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;  // Esto ajusta el inicio de la línea (puedes cambiarlo)
+    width: 80%;  // Esto ajusta el largo de la línea
+    height: 2px;
+    background-color: #ea9010;  // Esto da color a la línea
+}
+
+.login{
+    background-color: #EA9010;
+    color: white
+    
+  }

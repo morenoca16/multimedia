@@ -1,0 +1,114 @@
+.icon{
+    position: absolute;
+    right: -120px; /* Puedes ajustar este valor según tus necesidades */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .icon1{
+    position: absolute;
+    right: -80px; /* Puedes ajustar este valor según tus necesidades */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .icon2{
+    position: absolute;
+    right: -90px; /* Puedes ajustar este valor según tus necesidades */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .icon3{
+    position: absolute;
+    right: -90px; /* Puedes ajustar este valor según tus necesidades */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .icon4{
+    position: absolute;
+    right: -65px; /* Puedes ajustar este valor según tus necesidades */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .card{
+      border: 2px solid #EA9010;  /* Cambia el color según lo desees */
+      border-radius: 15px;  
+  }
+  .texto{
+    text-align: center;  /* Centra el texto horizontalmente */
+    font-weight: bold;   /* Hace el texto en negrita */
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 60px;
+
+}
+.texto::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;  // Esto ajusta el inicio de la línea (puedes cambiarlo)
+    width: 80%;  // Esto ajusta el largo de la línea
+    height: 2px;
+    background-color: #ea9010;  // Esto da color a la línea
+}
+  .ion-toolbar.footer{
+      --background-color: #3498db;  /* Color de fondo azul */
+  }
+  .circle-icon {
+    background-color: #EA9010;
+    border-radius: 50%;  
+    width: 100px;  
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin-bottom: -25px;
+
+}
+
+.circle-icon {
+  position: absolute; 
+  bottom: 40px; /* Ajusta según cuánto deseas que sobresalga el icono */
+  left: 50%;
+  transform: translateX(-50%); /* Centra el icono horizontalmente */
+  background-color: #EA9010; /* Usa el mismo color de fondo que tu footer para que se integre con él */
+  border:10px solid white; /* Crea un borde blanco alrededor del icono */
+  border-radius: 50%; /* Hace que el icono sea un círculo */
+  margin-top: -20px; /* Ajusta según tus necesidades */
+  z-index: 3;
+}
+
+.circle-icon::before {
+  content: ""; 
+  position: absolute; 
+  top: -5px; /* Ajusta según el grosor de tu borde */
+  left: -5px; /* Ajusta según el grosor de tu borde */
+  right: -5px; /* Ajusta según el grosor de tu borde */
+  bottom: -5px; /* Ajusta según el grosor de tu borde */
+  background-color:#EA9010; /* Fondo blanco */
+  border-radius: 50%; /* Hace que el pseudo-elemento sea un círculo */
+  z-index: -1; /* Coloca este pseudo-elemento detrás del icono */
+}
+
+.ion-footer {
+  height: 80px;  /* Por ejemplo, ajusta según tus necesidades */
+    background-color: #EA9010;
+    position: relative;
+    z-index: 2;
+}
+
+.contenido{
+  z-index: 1;
+}
+
+.floating-icon {
+  position: fixed;
+  bottom: 2px;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 9999;
+}
+.componente {
+  --background: 
+      url('/assets/Captura5.PNG') no-repeat center top / 100% 200px,
+      linear-gradient(white, white);
+}

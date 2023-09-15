@@ -1,0 +1,64 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+.icon-large {
+  font-size: 2em; /* O cualquier otro valor que desees */
+}
+
+.card{
+  border: 2px solid #EA9010;  /* Cambia el color según lo desees */
+  border-radius: 15px;  
+}
+
+.custom-text {
+  text-align: center;      /* Centra el texto horizontalmente */
+  font-size: 20px;         /* Cambia el tamaño del texto */
+  /* Si deseas centrarlo verticalmente dentro de un contenedor:
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;  (o la altura que desees para tu contenedor) */
+  font-weight: bold;
+  color: #EA9010;
+}
+
+.icono{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 70px;
+    color: #EA9010;
+}
+
+.componente {
+  --background: 
+      url('/assets/Captura5.PNG') no-repeat center top / 100% 250px,
+      linear-gradient(white, white);
+}
+.body {
+  background-color: white; /* O cualquier otro color que prefieras */
+}

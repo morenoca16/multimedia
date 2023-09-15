@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title slot="start">Fotos</ion-title>
+    <ion-button class="login" color= #EA9010; (click)="back()" slot="end">Inicio</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+ <ion-input [(ngModel)]="titulo" placeholder="Titulo" ></ion-input>
+ <img [src]="imageElement" />
+ <ion-input [(ngModel)]="currentDateTimes" placeholder="Fecha"></ion-input>
+ <ion-tab-button tab="radio" (click)="takePicture()">
+
+  <ion-icon name="camera-outline"></ion-icon>
+   Camara
+</ion-tab-button>
+<ion-button  (click)="goToFolder()" class="login" color= #EA9010; >Guardar foto</ion-button>
+<ion-button  (click)="back()" class="login" color= #EA9010;>Cancelar</ion-button>
+</ion-card>
+  
+
+
+</ion-content>

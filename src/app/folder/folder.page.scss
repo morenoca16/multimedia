@@ -1,0 +1,161 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.slider-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow-x: scroll;
+}
+
+.slider-container img {
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.slider-container{
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.card{
+  border-radius:20px;
+   position: relative;
+}
+
+.image-container {
+  position: relative;
+  width: 600px;
+}
+
+.image-text {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+
+}
+
+.image{
+  position: absolute;
+  top:95%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+
+}
+
+.texto{
+      text-align: center;  /* Centra el texto horizontalmente */
+      font-weight: bold;   /* Hace el texto en negrita */
+      padding-bottom: 5px;
+      position: relative;
+      font-size: 60px;
+  
+  }
+  .texto::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 10%;  // Esto ajusta el inicio de la línea (puedes cambiarlo)
+      width: 80%;  // Esto ajusta el largo de la línea
+      height: 2px;
+      background-color: #ea9010;  // Esto da color a la línea
+  }
+
+  .circle-icon {
+    background-color: #EA9010;
+    border-radius: 50%;  
+    width: 100px;  
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin-bottom: -25px;
+
+}
+
+.circle-icon {
+  position: absolute; 
+  bottom: 40px; /* Ajusta según cuánto deseas que sobresalga el icono */
+  left: 50%;
+  transform: translateX(-50%); /* Centra el icono horizontalmente */
+  background-color: #EA9010; /* Usa el mismo color de fondo que tu footer para que se integre con él */
+  border:10px solid white; /* Crea un borde blanco alrededor del icono */
+  border-radius: 50%; /* Hace que el icono sea un círculo */
+  margin-top: -20px; /* Ajusta según tus necesidades */
+  z-index: 3;
+}
+
+.circle-icon::before {
+  content: ""; 
+  position: absolute; 
+  top: -5px; /* Ajusta según el grosor de tu borde */
+  left: -5px; /* Ajusta según el grosor de tu borde */
+  right: -5px; /* Ajusta según el grosor de tu borde */
+  bottom: -5px; /* Ajusta según el grosor de tu borde */
+  background-color:#EA9010; /* Fondo blanco */
+  border-radius: 50%; /* Hace que el pseudo-elemento sea un círculo */
+  z-index: -1; /* Coloca este pseudo-elemento detrás del icono */
+}
+
+.ion-footer {
+  height: 80px;  /* Por ejemplo, ajusta según tus necesidades */
+    background-color: #EA9010;
+    position: relative;
+    z-index: 2;
+}
+
+.contenido{
+  z-index: 1;
+}
+
+.floating-icon {
+  position: fixed;
+  bottom: 2px;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 9999;
+}
+
+.componente {
+  --background: 
+      url('/assets/Captura5.PNG') no-repeat center top / 100% 250px,
+      linear-gradient(white, white);
+}

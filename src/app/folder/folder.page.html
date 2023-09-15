@@ -1,0 +1,30 @@
+
+<ion-content class="componente" [fullscreen]="true">
+  <h1 style="color:#EA9010" class="texto"> FOTOS</h1>
+  <ion-card class="card">
+    <div class="image-container">
+        <ion-img style="width: 340px; " class="foto" [src]="imageElement"></ion-img>
+        <div class="image-text">{{ titulo }}</div>
+        <div class="image">{{ currentDateTimes }}</div>
+    </div>
+  </ion-card>
+  <ion-card class="card">
+    <div class="image-container">
+        <ion-img style="width: 340px; " class="foto" [src]="imageElement"></ion-img>
+        <div class="image-text">{{ titulo }}</div>
+        <div class="image">{{ currentDateTimes }}</div>
+    </div>
+  </ion-card>
+  <ion-card class="card">
+    <div class="image-container">
+        <ion-img style="width: 340px; " class="foto" [src]="imageElement"></ion-img>
+        <div class="image-text">{{ titulo }}</div>
+        <div class="image">{{ currentDateTimes }}</div>
+    </div>
+  </ion-card>
+
+</ion-content>
+
+<ion-footer style="background-color: #EA9010;">
+  <img  style="width: 400px;" src="assets/Captura3.PNG" (click)="goToInfo()"> 
+</ion-footer>
